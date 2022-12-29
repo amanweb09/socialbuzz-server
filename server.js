@@ -19,7 +19,7 @@ app.set('eventEmitter', eventEmitter)
 
 const cors = require('cors'); 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:5500'],
+    origin: ['http://localhost:3000', 'http://localhost:5500', 'https://socialbuzz-server-production.up.railway.app/'],
     credentials: true
 }))
 
