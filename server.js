@@ -45,7 +45,7 @@ app.use('*', (req, res) => {
 })
 
 server.listen(PORT, () => {
-    console.log("Listening server on port", PORT);
+    console.log("Listening server on port", PORT)
 })
 
 // io.on('connection', (socket) => {
